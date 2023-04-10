@@ -1,0 +1,319 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Rubik&display=swap");
+
+body {
+  font-family: ;
+  display: grid;
+  grid-template-columns: 1fr;
+  font-family: "Rubik", sans-serif;
+}
+
+.shiping-container {
+  width: 100%;
+  height: 84rem;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+}
+.address-container {
+  display: flex;
+  flex-direction: column;
+
+  height: 10rem;
+
+  padding: 0 1rem;
+  padding-top: 1rem;
+  border-bottom: 0.3px solid rgb(206, 205, 205);
+}
+.addCard {
+  display: flex;
+  border-radius: 10px;
+  height: 6.5rem;
+  width: 100%;
+  box-shadow: 4px 4px 4px #efefef;
+  background-color: #fcfcfc;
+  border-top: 1px solid rgb(239, 237, 237);
+  border-left: 1px solid rgb(239, 237, 237);
+  margin-bottom: 1rem;
+  padding-right: 0.5rem;
+}
+.img1 {
+  width: 45%;
+  justify-self: center;
+  height: 50%;
+  align-self: center;
+  background-color: #e4e4e4;
+}
+.location {
+  display: flex;
+  width: 20%;
+  align-self: center;
+  justify-content: center;
+  height: 40%;
+  margin-left: 1rem;
+  background-color: #e4e4e4;
+  border-radius: 100%;
+}
+.add-info {
+  padding-left: 1rem;
+}
+.edit {
+  display: flex;
+  width: 15%;
+  align-self: center;
+  justify-content: center;
+  height: 40%;
+  margin-left: 1rem;
+
+  border-radius: 100%;
+}
+.img2 {
+  width: 70%;
+  height: 2rem;
+  border: none;
+  padding-right: 1rem;
+  box-shadow: 0px 0px 0px white;
+}
+.p1 {
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  align-self: start;
+  font-size: 1rem;
+  margin-top: 0;
+}
+.order-container {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0.6rem;
+  padding-right: 0.5rem;
+  border-bottom: 1px solid #d0d0d0;
+}
+/*///////////////////////////////////card*/
+.Card {
+  display: flex;
+  width: 100%;
+  height: 6.7rem;
+  background-color: rgb(226, 226, 226);
+  justify-self: center;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+}
+
+.card-information {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+  height: auto;
+  box-shadow: 1px 2px 5px rgb(187, 186, 186);
+  border-radius: 10px;
+  margin-left: 0.5rem;
+  background-color: white;
+  justify-content: center;
+  justify-items: center;
+  padding-top: 1rem;
+  border-top: 1px solid rgb(233, 233, 233);
+}
+.card-button {
+  display: flex;
+}
+.card-layout {
+  background-color: rgb(252, 252, 252);
+  border-top: 2px solid rgb(200, 200, 200);
+  display: flex;
+  padding: 1rem 1rem;
+  border-radius: 20px;
+  width: 90%;
+  height: 9rem;
+  justify-self: center;
+  justify-content: center;
+
+  box-shadow: 5px 5px 6px rgb(208, 208, 208);
+  margin-bottom: 1rem;
+}
+.card-img {
+  width: 90px;
+  height: 105px;
+}
+.container-List {
+  margin-top: 2rem;
+  display: flex;
+
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  min-height: 844px;
+  height: 100%;
+
+  z-index: 2;
+}
+img {
+  padding: 0 0.2rem;
+  color: gray;
+  box-shadow: 3px 3px 3px rgb(161, 161, 161);
+  height: 130px;
+  width: 50px;
+  border-radius: 10px;
+  border-left: 0.5px solid rgb(201, 201, 201);
+  border-top: 0.5px solid rgb(200, 200, 200);
+}
+.card-title {
+  font-size: small;
+  font-weight: bold;
+
+  padding-left: 0.5rem;
+}
+.card-color {
+  justify-self: end;
+
+  display: flex;
+}
+.card-size {
+  justify-self: start;
+}
+.pad {
+  width: 1rem;
+  height: 18px;
+  border-radius: 100%;
+}
+.pad-title {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.card-button {
+  width: 30%;
+  justify-self: center;
+
+  background-color: rgb(226, 226, 226);
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  border-radius: 100%;
+  height: 1.5rem;
+  align-content: center;
+}
+.number {
+  justify-self: center;
+}
+.shipingType-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 11rem;
+  border-bottom: 1px solid #d0d0d0;
+}
+.type-list {
+  display: grid;
+  grid-template-columns: 25% 50% 7.5% 17.5%;
+  width: 100%;
+  height: 40%;
+  justify-self: center;
+  align-items: center;
+  background-color: rgb(246, 246, 246);
+  border-radius: 10px;
+}
+.imgArrow,
+.imgTruck {
+  justify-self: center;
+  width: 30px;
+  height: 30px;
+  justify-self: center;
+}
+.a3 {
+  justify-self: center;
+}
+.sp3 {
+  font-size: large;
+}
+.imgArrow {
+  border: none;
+  box-shadow: 0px 0px 0px;
+  width: 25px;
+  height: 25px;
+}
+.p3 {
+  font-size: large;
+  font-weight: bold;
+}
+.promo-container {
+  display: flex;
+  flex-direction: column;
+}
+.promo {
+  display: flex;
+  color: white;
+}
+.plus {
+  background-color: black;
+  width: 20%;
+  text-align: center;
+  font-size: xx-large;
+  font-weight: bold;
+  height: 3rem;
+  border-radius: 100%;
+  justify-self: center;
+  color: white;
+  align-self: center;
+  justify-self: center;
+  padding-top: 0.8rem;
+}
+.promotxt {
+  border: none;
+  width: 80%;
+  border-radius: 10px;
+  background-color: rgb(247, 247, 247);
+}
+.amount-container {
+  width: 100%;
+  height: 10rem;
+  display: flex;
+  flex-direction: column;
+  background-color: whitesmoke;
+}
+.priceTab {
+  width: 100%;
+  height: 7rem;
+  display: flex;
+  flex-direction: column;
+  grid-template-columns: 1fr 1fr;
+}
+.info {
+  display: grid;
+  height: 7rem;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+}
+.totoaPricee {
+  width: 100%;
+  display: flex;
+}
+.paymentBtn {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.countinue {
+  width: 80%;
+  justify-self: center;
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  font-size: x-large;
+  height: 3rem;
+}
+.img4 {
+  width: 20px;
+  height: 20px;
+}
+.img5 {
+  background-color: rgb(255, 255, 255);
+  width: 20px;
+  height: 20px;
+  margin-left: 5px;
+}
+.totoaPricee {
+  width: 100%;
+  display: flex;
+}
+.spTotal {
+  margin-right: 40%;
+}

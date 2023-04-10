@@ -1,0 +1,270 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Rubik&display=swap");
+
+* {
+  font-family: "Rubik", sans-serif;
+}
+html {
+  position: relative;
+}
+.body {
+  display: flex;
+  flex-direction: column;
+
+  background-color: rgb(244, 244, 244);
+  width: auto;
+  position: relative;
+  height: 100%;
+}
+header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: rgb(252, 252, 252);
+  height: auto;
+  width: auto;
+}
+.icon {
+  justify-self: start;
+  width: 205px;
+  height: 55px;
+}
+.srch {
+  justify-self: end;
+  width: 65px;
+  height: 50px;
+  margin-right: 1rem;
+}
+
+.container-List {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(244, 244, 244);
+  height: 100%;
+}
+
+.Card {
+  display: flex;
+  width: 100%;
+  height: 8rem;
+  background-color: rgb(243, 242, 244);
+  justify-self: center;
+  border: none;
+  border-radius: 10px;
+}
+
+.card-information {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+  height: auto;
+  box-shadow: 1px 2px 5px rgb(187, 186, 186);
+  border-radius: 10px;
+  margin-left: 0.5rem;
+  background-color: white;
+  justify-content: center;
+  justify-items: center;
+  padding-top: 1rem;
+  border-top: 1px solid rgb(233, 233, 233);
+}
+.card-button {
+  display: flex;
+}
+.card-layout {
+  background-color: rgb(252, 252, 252);
+  border-top: 2px solid rgb(200, 200, 200);
+  display: flex;
+  padding: 1rem 1rem;
+  border-radius: 20px;
+  width: 90%;
+  height: 9rem;
+  justify-self: center;
+  justify-content: center;
+
+  box-shadow: 5px 5px 6px rgb(208, 208, 208);
+  margin-bottom: 1rem;
+}
+.card-img {
+  width: 130px;
+  height: 125px;
+}
+.container-List {
+  margin-top: 2rem;
+  display: flex;
+
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  min-height: 844px;
+  height: 100%;
+
+  z-index: 2;
+}
+img {
+  color: gray;
+  box-shadow: 3px 3px 3px rgb(161, 161, 161);
+  height: 130px;
+  width: 130px;
+  border-radius: 10px;
+  border-left: 0.5px solid rgb(201, 201, 201);
+  border-top: 0.5px solid rgb(200, 200, 200);
+}
+.card-title {
+  font-size: small;
+  font-weight: bold;
+
+  padding-left: 0.5rem;
+}
+.card-color {
+  justify-self: end;
+
+  display: flex;
+}
+.card-size {
+  justify-self: start;
+}
+.pad {
+  width: 1rem;
+  height: 18px;
+  border-radius: 100%;
+}
+.pad-title {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.card-button {
+  width: 80%;
+  border-radius: 25px;
+  background-color: rgb(226, 226, 226);
+  display: flex;
+  align-self: center;
+}
+.plus {
+  width: 100%;
+  font-size: x-large;
+  font-weight: bold;
+  text-align: center;
+  align-self: center;
+}
+.neg {
+  width: 100%;
+  text-align: center;
+  font-size: x-large;
+  font-weight: bold;
+  align-self: center;
+}
+.number {
+  align-self: center;
+  font-size: x-large;
+  font-weight: bold;
+}
+nav {
+  width: 100%;
+  height: 66px;
+  justify-self: center;
+  justify-content: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 44px;
+
+  margin-right: 0;
+  background-color: rgba(255, 255, 255, 0.87);
+}
+nav a {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+  list-style: none;
+  color: rgb(165, 164, 164);
+}
+.bi {
+  font-size: 30px;
+}
+nav a i:hover {
+  font-size: xx-large;
+  color: black;
+}
+.nav-title {
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 12px;
+}
+
+.checkout-con {
+  display: flex;
+  flex-direction: column;
+}
+.chech-nav {
+  display: grid;
+  grid-template-columns: 0.5fr 1.5fr;
+  background-color: rgba(255, 255, 255, 0.87);
+  height: 5rem;
+  padding-right: 1rem;
+}
+.check-btn {
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  width: 100%;
+  height: 3rem;
+  align-self: center;
+  justify-self: start;
+}
+.total-price {
+  align-self: center;
+  padding-left: 1rem;
+}
+.modal {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  height: 100%;
+  left: 1;
+  top: 1;
+  z-index: 2;
+  display: grid;
+  visibility: hidden;
+  z-index: 10;
+}
+.open {
+  visibility: visible;
+}
+.modal-list {
+  position: absolute;
+  width: 100%;
+  height: 300px;
+  left: 4;
+  bottom: 4;
+  border-radius: 30px;
+  background-color: rgb(252, 252, 252);
+  align-self: end;
+}
+.form {
+  display: flex;
+  gap: 10px;
+}
+button {
+  margin-top: 2rem;
+  width: 60%;
+  height: 2rem;
+  border-radius: 20px;
+  border: none;
+}
+.cancel {
+  margin-left: 5px;
+  font-weight: bold;
+}
+.delete {
+  margin-right: 5px;
+  font-weight: bold;
+  background-color: black;
+  color: white;
+}
+h2 {
+  text-align: center;
+}

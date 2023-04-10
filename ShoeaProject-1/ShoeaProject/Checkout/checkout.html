@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="./checkout.css" rel="stylesheet" />
+  </head>
+  <header>
+    <div>
+      <span><a>&#8592;</a> </span>
+      <span>Orders</span>
+    </div>
+    <div></div>
+  </header>
+  <body>
+    <main class="shiping-container">
+      <div class="address-container"></div>
+
+      <div class="order-container">
+        <h2>Orders</h2>
+      </div>
+      <div class="shipingType-container">
+        <h2>Shipping Type</h2>
+        <div class="type-list">
+          <img class="imgTruck" src="/images/cargo-truck.png" />
+          <p class="p3">Choose Shiping Type</p>
+          <img class="imgArrow" src="/images/right-arrow.png" />
+        </div>
+      </div>
+      <div class="promo-container">
+        <h2>Promo code</h2>
+        <div class="promo">
+          <input
+            type="text"
+            placeholder="Enter the promo code"
+            class="promotxt"
+          />
+          <div class="plus">+</div>
+        </div>
+      </div>
+      <div class="amount-container">
+        <div class="priceTab">
+          <div class="info">
+            <span>Amount:</span>
+            <span>$ <span class="amount">-</span></span>
+            <span>Shiping:</span>
+            <span class="shipPrice">-<span>$</span></span>
+          </div>
+          <div class="totoaPricee">
+            <span class="spTotal">Total</span>
+            <span>$ <span class="priceTotal">- </span></span>
+          </div>
+        </div>
+      </div>
+      <div class="paymentBtn">
+        <button class="countinue">Continue shipping</button>
+      </div>
+    </main>
+    <script src="./check.js"></script>
+  </body>
+</html>

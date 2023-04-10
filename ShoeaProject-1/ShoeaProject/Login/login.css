@@ -1,0 +1,58 @@
+body {
+  height: 800px;
+  display: grid;
+}
+.loginForm {
+  width: 100%;
+  display: grid;
+  justify-content: center;
+  align-self: center;
+  grid-template-columns: 1fr;
+  padding-top: 10rem;
+  row-gap: 1rem;
+}
+.img {
+  justify-content: center;
+  justify-items: center;
+  justify-self: center;
+}
+.Username {
+  margin-top: 5rem;
+}
+.input {
+  width: 80%;
+  border-radius: 5px;
+  justify-self: center;
+}
+
+.remember {
+  margin: 0;
+  margin-top: 2rem;
+  padding-top: 1rem;
+}
+.check {
+  font-size: large;
+  font-weight: bold;
+  text-align: center;
+}
+span {
+  margin-left: 0.5rem;
+}
+.signIn {
+  background-color: black;
+  color: whitesmoke;
+  border-radius: 20px;
+  border: none;
+  align-self: end;
+  width: 60%;
+  justify-self: center;
+}
+
+.wrong {
+  border: red solid 2px;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+  color: red;
+  border: none;
+  font-size: large;
+  font-weight: bold;
+}

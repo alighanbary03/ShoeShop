@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Rubik&display=swap");
+.card-body {
+  display: grid;
+  height: 15rem;
+  font-size: x-large;
+  align-items: center;
+  width: fit-content;
+  justify-content: center;
+  justify-items: center;
+  column-gap: 4px;
+  border-radius: 10px;
+  box-shadow: 1px 3px 6px grey inset;
+  border-radius: 20px;
+}
+.Shoeimg {
+  width: 90%;
+  height: 9rem;
+  padding-top: 0.5rem;
+}
+.container-brand {
+  display: grid;
+  grid-template-columns: 45% 45%;
+  column-gap: 10%;
+  row-gap: 6.5%;
+  height: 100%;
+}
+.header {
+  display: flex;
+  justify-content: start;
+  border-bottom: 2px solid black;
+  margin-bottom: 1.5rem;
+  font-size: large;
+  gap: 0.5rem;
+  font-weight: bold;
+  padding-bottom: 0.5rem;
+  font-family: "Rubik", sans-serif;
+}
+.product-title {
+  padding-left: 0.7rem;
+  font-weight: bold;
+  font-size: large;
+}
+header {
+  margin-top: 1.5rem;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.product-price {
+  justify-self: end;
+  padding-right: 1rem;
+  font-size: large;
+  font-family: "Rubik", sans-serif;
+  margin-bottom: 0.5rem;
+}
+.product-title {
+  font-size: medium;
+  font-weight: bold;
+  font-family: "Rubik", sans-serif;
+  margin-bottom: 0.5rem;
+}

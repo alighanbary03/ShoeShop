@@ -1,0 +1,351 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Rubik&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Rubik&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+.adress {
+  display: grid;
+
+  width: auto;
+  height: 800px;
+  background-color: rgb(244, 244, 244);
+  padding: 2rem 0.5rem;
+}
+.card {
+  display: grid;
+  grid-template-columns: 25% 50% 12.5% 12.5%;
+  width: 100%;
+  justify-self: center;
+  background-color: white;
+  border-radius: 15px;
+  height: 6.5rem;
+  margin-bottom: 2rem;
+  font-family: "Rubik", sans-serif;
+}
+img {
+  width: 70%;
+  height: 3.5rem;
+  align-self: center;
+  justify-self: center;
+}
+p {
+  margin-top: 0;
+}
+h2 {
+  margin-bottom: 0.6rem;
+  font-size: large;
+}
+span {
+  align-self: center;
+  font-size: large;
+  font-weight: bold;
+  padding-left: 0.6rem;
+}
+input[type="radio"] {
+  background-color: black;
+  color: black;
+  text-decoration-color: black;
+}
+.head {
+  display: flex;
+  align-items: center;
+}
+a {
+  text-decoration: none;
+  font-size: x-large;
+  margin-right: 1rem;
+}
+.h2 {
+  font-size: x-large;
+}
+.card2 {
+  display: grid;
+  grid-template-columns: 25% 50% 25%;
+  width: 100%;
+  justify-self: center;
+  background-color: white;
+  border-radius: 15px;
+  height: 6.5rem;
+  margin-bottom: 2rem;
+  font-family: "Rubik", sans-serif;
+}
+.rad {
+  justify-self: center;
+  align-self: center;
+  width: 30px;
+  height: 30px;
+}
+.apply {
+  width: 90%;
+  justify-self: center;
+  align-self: end;
+  background-color: black;
+  border: none;
+  color: white;
+  font-size: x-large;
+  font-weight: bold;
+  border-radius: 40px;
+  height: 3rem;
+  margin-left: 1rem;
+}
+.confirm {
+  align-self: end;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  height: 3rem;
+  font-size: large;
+  border-radius: 30px;
+}
+.loader {
+  border: 5px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 4px solid #1e5b26;
+  width: 40px;
+  height: 50px;
+  align-self: end;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+  margin-top: 10%;
+  margin-left: 42%;
+}
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.loader {
+  align-self: start;
+  justify-self: start;
+  visibility: hidden;
+}
+.h3 {
+  visibility: hidden;
+  justify-self: center;
+  font-size: x-large;
+  color: #1e5b26;
+  font-family: "Rubik", sans-serif;
+}
+.success {
+  visibility: hidden;
+  position: absolute;
+  padding: 1rem 1rem;
+  width: 60%;
+  height: 38%;
+  left: 20%;
+  top: 40%;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(252, 252, 252);
+  border-radius: 20px;
+  box-shadow: 3px 3px 3px #e0e0e0;
+  justify-content: space-between;
+}
+.imgE {
+  height: 10rem;
+}
+.btn {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  font-size: medium;
+  border-radius: 15px;
+}
+.vis {
+  visibility: visible;
+}
+
+.card2 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-self: center;
+  background-color: white;
+  border-radius: 15px;
+  height: fit-content;
+  margin-bottom: 2rem;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  z-index: 0;
+  font-weight: 400;
+  font-size: 10px;
+  background: linear-gradient(
+    to right,
+    rgb(224, 224, 224),
+    rgb(226, 226, 226),
+    rgb(255, 255, 255)
+  );
+  padding: 5px 3px;
+}
+
+.card2::-webkit-scrollbar {
+  width: 0;
+  z-index: 1;
+}
+body {
+  height: 60rem;
+  position: relative;
+}
+h2 {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+.card {
+  display: grid;
+  grid-template-columns: 25% 50% 12.5% 12.5%;
+  width: 100%;
+  justify-self: center;
+  background-color: rgb(248, 248, 248);
+  border-radius: 15px;
+  height: 7rem;
+  margin-bottom: 2rem;
+
+  box-shadow: 3px 3px 3px #e1e1e1;
+  margin-bottom: 1.5rem;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+.card::-webkit-scrollbar {
+  width: 0; /* Remove scrollbar space */
+  /* Optional: just make scrollbar invisible */
+  /* background: transparent;   */
+  z-index: 1;
+}
+img {
+  width: 90%;
+  height: 5.5rem;
+  align-self: center;
+  justify-self: center;
+  border-radius: 10px;
+  margin-left: 1rem;
+}
+p {
+  margin-left: 1rem;
+  margin-top: 0;
+  font-weight: 600;
+  font-size: 16px;
+  font-family: 1 "Rubik", sans-serif;
+}
+
+h2 {
+  margin-bottom: 1rem;
+  font-size: large;
+  margin-left: 1rem;
+}
+span {
+  align-self: center;
+  font-size: large;
+  font-weight: bold;
+  padding-left: 0.6rem;
+}
+input[type="radio"] {
+  background-color: black;
+  color: black;
+  text-decoration-color: black;
+}
+.head {
+  display: flex;
+  align-items: center;
+}
+a {
+  text-decoration: none;
+  font-size: x-large;
+  margin-right: 1rem;
+}
+.h2 {
+  font-size: x-large;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+.icon {
+  display: flex;
+  margin-bottom: 1rem;
+}
+.situaction {
+  padding: 0 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+.Iimg {
+  height: 20px;
+  width: 20px;
+}
+.Complete {
+  border-bottom: 1px solid black;
+  width: 50%;
+  text-align: center;
+  font-size: large;
+}
+.active {
+  border-bottom: 2.5px solid black;
+  width: 50%;
+  text-align: center;
+  font-size: large;
+}
+.Iimg2 {
+  width: 120px;
+  height: 50px;
+}
+.Iimg {
+  width: 130px;
+  height: 50px;
+  margin-top: 1rem;
+}
+.Iimg1 {
+  width: 40px;
+  height: 50px;
+}
+.order {
+}
+nav {
+  width: 100%;
+  height: 66px;
+  justify-self: center;
+  justify-content: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+
+  margin-right: 0;
+}
+nav a {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: black;
+  text-decoration: none;
+}
+.bi {
+  font-size: 30px;
+}
+nav a i:hover {
+  font-size: xx-large;
+}
+.nav-title {
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 12px;
+}
+.Oh2 {
+  font-size: large;
+
+  font-weight: bold;
+}
